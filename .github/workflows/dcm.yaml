@@ -43,7 +43,7 @@ jobs:
         with:
           ref: "${{ github.event.pull_request.head.sha }}"
       - name: Load Cached Flutter SDK
-        uses: actions/cache@88522ab9f39a2ea568f7027eddc7d8d8bc9d59c8
+        uses: actions/cache@13aacd865c20de90d75de3b17ebe84f7a17d57d2
         with:
           path: |
             ./flutter-sdk
